@@ -1,5 +1,7 @@
+import Benefit from './components/Benefit';
+
 const App = () => {
-  return <h1 className='text-3xl font-bold underline'>Hello world!</h1>;
+  return <Benefit />;
 };
 
 export default App;
