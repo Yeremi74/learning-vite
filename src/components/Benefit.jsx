@@ -40,7 +40,7 @@ const Benefit = () => {
             <img src='/check.svg' className='h-8 w-8' />
             <div>
               <h3 className='font-bold text-lg'>{card.title}</h3>
-              <p className='text-gray-400'>{card.desc}</p>
+              <p className='text-gray-400'>{card.desc}</p>a
             </div>
           </div>
         ))}
