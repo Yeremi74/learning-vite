@@ -6,7 +6,8 @@ const Cards = () => {
         fixing kb complexity
       </span>
       <p className= 'text-4xl font-bold text-center mb-0'>
-      Dont let the complexity of Kubernetes leak into your engineering team
+      <div>Dont let the complexity of Kubernetes</div>
+      <div>leak into your engineering team</div> 
       </p>
     
       <div className='flex justify-center gap-8'>
