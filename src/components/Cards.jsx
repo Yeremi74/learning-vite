@@ -6,13 +6,9 @@ const Cards = () => {
         fixing kb complexity
       </span>
       <p className= 'text-4xl font-bold text-center mb-0'>
-        Dont let the complexity of Kubernetes
-      </p>  
-      <p className= 'text-4xl font-bold text-center mt-0'>
-        leak into your engineering team
+      Dont let the complexity of Kubernetes leak into your engineering team
       </p>
-      {/* Acá quise poner el título en dos líneas, se me ocurrió hacer dos párrafos, pero luego quise que queden más cerca las dos líneas y mucho no logré, seguramente haya una mejor manera... La gripe me tiene mal pero quería hacerlo e ir dándole forma. Esto borralo jajaja!*/}
-
+    
       <div className='flex justify-center gap-8'>
         <div className= 'flex flex-col gap-8 p-5 bg-white rounded-3xl w-96'>
           <img src="/K8s Operator.png" alt="" />
