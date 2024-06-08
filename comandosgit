@@ -5,3 +5,4 @@ git push --set-upstream origin nombre: hacer push de la rama
 hacer pull request vide: 35:00
 git pull: descargar los cambios del repositorio
 gir branch -d nombre: eliminar una rama
+git push origin nombre: subir los cambios de una rama
