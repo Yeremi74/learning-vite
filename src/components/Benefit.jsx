@@ -15,31 +15,31 @@ const Benefit = () => {
   ];
 
   return (
-    <div className='w-screen bg-whiteBG flex flex-col items-center gap-5 py-14'>
+    <div className='flex flex-col items-center gap-5  bg-whiteBG py-14'>
       <h2 className='text-4xl font-semibold'>
         A platform to benefit the entire team
       </h2>
 
-      <div className='bg-gray-300 rounded-lg flex'>
-        <button className='px-3 py-1 rounded-lg bg-white text-black'>
+      <div className='flex bg-gray-300 rounded-lg'>
+        <button className='px-3 py-1 text-black bg-white rounded-lg'>
           Product Teams
         </button>
-        <button className='px-3 py-1 rounded-lg text-gray-400'>
+        <button className='px-3 py-1 text-gray-400 rounded-lg'>
           DevOps/Platform Teams
         </button>
-        <button className='px-3 py-1 rounded-lg text-gray-400'>
+        <button className='px-3 py-1 text-gray-400 rounded-lg'>
           Engineering Leaders
         </button>
       </div>
-      <div className='flex w-10/12 gap-3 mx-auto my-0 justify-center'>
+      <div className='flex justify-center w-10/12 gap-3 mx-auto my-0'>
         {cardInfo.map((card) => (
           <div
             key={card.title}
-            className='bg-white w-96 flex flex-col gap-3 p-4'
+            className='flex flex-col gap-3 p-4 bg-white w-96'
           >
-            <img src='/check.svg' className='h-8 w-8' />
+            <img src='/check.svg' className='w-8 h-8' />
             <div>
-              <h3 className='font-bold text-lg'>{card.title}</h3>
+              <h3 className='text-lg font-bold'>{card.title}</h3>
               <p className='text-gray-400'>{card.desc}</p>a
             </div>
           </div>
