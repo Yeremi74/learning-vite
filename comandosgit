@@ -1,0 +1,7 @@
+git branch: ver las ramas existentes
+git branch nombre: crear nueva rama
+git chekout nombre: utilizar la rama seleccionada
+git push --set-upstream origin nombre: hacer push de la rama
+hacer pull request vide: 35:00
+git pull: descargar los cambios del repositorio
+gir branch -d nombre: eliminar una rama
